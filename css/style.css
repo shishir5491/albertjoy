@@ -1,0 +1,353 @@
+/*
+	author: albertjoy96 ;
+	Responsive web designer;
+	copyright 2018 albertjoy96 ;
+	licensed under albertjoy96 ;
+*/
+
+/* 
+	1. Global css
+	2. Header css
+	3. home css
+	4. Introduction css
+	5. Design css
+	6. Navigation css
+	7. Multimedia css
+	8. Usability css
+	9. Copyright css
+	10. Technique css
+	11. Highlight css
+	12. Reference css
+	13. Design principle css 
+	14. Footer css
+*/
+
+/********** 1. Global css **********/
+
+body{
+	font-family: 'Lato', sans-serif;
+
+	margin: 0px!important;
+	padding: 0px!important;
+
+}
+
+.bg-dark{
+	background-color: #343a40!important;
+}
+
+.text-white{
+	color: white;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px!important;
+	font-weight: 300px;
+	line-height: 30px;
+}
+
+.lead{
+	font-size: 24px!important;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+}
+
+h4{
+	font-family: 'Lato', sans-serif;
+}
+
+h5{
+
+}
+
+h6{
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.no-padding{
+	padding: 0px!important;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+/********** 2. Header css **********/
+.header{
+	padding: 35px 0px!important;
+	background-color: #222222!important;
+}
+
+.navbar{
+	padding: 0px !important;
+	background-color: white!important;
+	border-bottom: 2px solid black;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	padding: 20px 12px;
+	color: #343a40;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: black!important;
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link{
+	color: white!important;
+	background-color: black!important;
+}
+
+.navbar-nav{
+	margin: 0 auto!important;
+}
+
+/************ 3. Home css ************/
+
+.banner{
+	background: url(../img/pexels-photo-1179156.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.6);
+}
+
+.banner-heading{
+	padding: 100px 0px 200px 0px;
+}
+
+.banner button{
+	padding: 20px 50px!important;
+	border: 2px solid white!important;
+	border-radius: 0px!important;
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+
+.banner button:hover{
+	margin-left: 12px!important;
+}
+
+.banner h1{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+
+/*********** 4. introduction css ************/
+
+.introduction{
+	padding: 60px 0px;
+	color: white;
+}
+
+.introduction-part{
+	margin-top: 30px;
+}
+
+.introduction-divider{
+	border-left: 5px solid white;
+}
+
+
+/************* 5. design css ************/
+
+.font{
+	padding: 60px 0px;
+}
+
+.color{
+	padding: 60px 0px;
+}
+
+.layout{
+	padding: 60px 0px;
+}
+
+/************** 6. navigation css **************/
+
+.navigation{
+	padding: 60px 0px;
+}
+
+/************ 7. multimedia css *************/
+
+.multimedia{
+	padding: 60px 0px;
+}
+
+.multimedia img{
+	border: 7px solid white;
+}
+
+.multimedia iframe{
+	border: 7px solid white;
+}
+
+/************ 8. usability css *************/
+
+.usability .card{
+	background-color: white!important;
+	border: 0px;
+	border-radius: 0px!important;
+}
+
+.usability .card-body{
+	border-radius: 0px!important;
+}
+.usability .card:hover{
+
+}
+
+.usability{
+	padding: 60px 0px;
+}
+
+/*********** 9.copyright css ************/
+
+.copyright{
+	padding: 60px 0px;
+}
+
+.powered{
+	text-decoration: underline;
+}
+
+.fa-copyright{
+	font-size: 150px;
+	margin-bottom: 30px;
+}
+
+
+/********** 10. technique css *************/
+
+.technique{
+	padding: 60px 0px;
+}
+.technique-part{
+	margin-top: 40px;
+}
+
+.technique-part img{
+	width: 250px;
+	height:300px;
+}
+
+.technique .card{
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+
+.technique .card:hover{
+	transform: scale(.9,.9);
+
+}
+
+/************* 11. highlights css **************/
+
+.highlights{
+	padding: 60px 0px!important;
+}
+
+/*********** 12. references css ***********/
+
+.reference{
+	padding: 60px 0px 160px 0px;
+}
+
+.reference li{
+	font-size: 18px;
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+
+.reference li:hover{
+	margin-left: 10px!important;
+}
+
+
+
+/***********13. principle css ************/
+
+.principle{
+	padding: 60px 0px;
+}
+
+.principle-part{
+	margin-top: 30px;
+}
+
+/********** 14. footer css **********/
+
+footer{
+	background-color: white!important;
+}
+
+footer p{
+	margin-top: 13px;
+}
+
+
+
+
+
+@media (max-width: 767px){
+		
+}
